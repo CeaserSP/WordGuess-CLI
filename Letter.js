@@ -7,13 +7,21 @@ function Letter(letter) {
     // function that returns the underlying character if the letter has been guessed, 
     // or a placeholder (like an underscore) if the letter has not been guessed.
     function Guessed(){
-        if(guess = true){
+        if(this.guess = true){
             return letter;
         }else{
             return "_"
         }
     }
     console.log(Guessed())
+    // function that takes a character as an argument and checks it against the underlying character, 
+    // updating the stored boolean value to true if it was guessed correctly
+    function checkUp(userGuess){
+        if(userGuess = letter){
+            this.guess = true;
+        }
+    }
+
 };
 
 // exporting our Student constructor
