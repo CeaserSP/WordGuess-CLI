@@ -5,4 +5,4 @@ function Letter(letter) {
 };
 
 // exporting our Student constructor
-module.exports = Student;
+module.exports =Letter;
