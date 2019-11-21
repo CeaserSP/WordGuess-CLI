@@ -4,8 +4,15 @@ var Word = function (newWord) {
     this.lArray = newWord.split('');
     // array of `new` Letter objects representing the letters of the underlying word
     this.wArray = [];
-    // TO DO:
-    // string representing word. for loop calling letter.js for display of the string
+    // This should call the function on each letter object (the first function defined in `Letter.js`) that displays the character or an underscore and concatenate those together.
+    var wordArray = function(){
+        for (var i = 0; i<lArray.lenth; i++){
+
+        }
+    }
+  
+
+
 
 }
 
