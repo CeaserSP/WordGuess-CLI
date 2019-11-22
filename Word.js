@@ -23,8 +23,12 @@ this.displayWord = function(){
         var displayLetterObjects = letterObjects.guessed();
         // push displayLetterObjects to a string variable
         displayString.push(displayLetterObjects)
-    }
-}
+    };
+    // concatenate letterObjects
+    var concatedWord = displayString.join(' ');
+//    display word
+
+};
 
 
 
