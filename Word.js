@@ -13,18 +13,24 @@ var Word = function (newWord) {
             this.wArray.push(wordObject);
         };
     };
+    var displayString = ''
 // Display wArray
 this.displayWord = function(){
     for (var j = 0; i < this.wArray.length; j++){
-        
+        // set varbiable for wArray objects
+        var letterObjects = this.wArray[j];
+        // call guessed from letter on letterObjects
+        var displayLetterObjects = letterObjects.guessed();
+        // push displayLetterObjects to a string variable
+        displayString.push(displayLetterObjects)
     }
 }
 
 
 
 }
-// var testW = new Word("TImesheet");
+var testW = new Word("TImesheet");
 // console.log(testW.lArray);
-// console.log(testW.wArray);
+// console.log(testW.wordArray);
 // testW.wordArray();
 // console.log(testW.wArray);
