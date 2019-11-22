@@ -29,10 +29,12 @@ var Word = function (newWord) {
         //    display word
         this.concatWord = concatString;
     };
+    // A function that takes a character from user as an argument and calls the guess function on each letter object
+this.checkGuess = function(userGuess){
+// 
+};
 
-
-
-}
+};
 // var testW = new Word("TImesheet");
 // // console.log(testW.lArray);
 // // console.log(testW.wordArray);
