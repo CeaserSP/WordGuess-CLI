@@ -13,7 +13,12 @@ var Word = function (newWord) {
             this.wArray.push(wordObject);
         };
     };
-
+// Display wArray
+this.displayWord = function(){
+    for (var j = 0; i < this.wArray.length; j++){
+        
+    }
+}
 
 
 
