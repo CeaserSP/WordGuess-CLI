@@ -31,7 +31,10 @@ var Word = function (newWord) {
     };
     // A function that takes a character from user as an argument and calls the guess function on each letter object
 this.checkGuess = function(userGuess){
-// 
+// loop through wArray
+for (var k = 0; k < this.wArray.length; k++){
+    
+}
 };
 
 };
