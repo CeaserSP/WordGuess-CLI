@@ -43,7 +43,7 @@ var Word = function (newWord) {
                 this.wArray[k] = checkLetter;
             }
         };
-        // Display word
+        // Display
         this.displayWord();
     };
 };
