@@ -16,7 +16,7 @@ var Word = function (newWord) {
     var displayString = ''
 // Display wArray
 this.displayWord = function(){
-    for (var j = 0; i < this.wArray.length; j++){
+    for (var j = 0; j < this.wArray.length; j++){
         // set varbiable for wArray objects
         var letterObjects = this.wArray[j];
         // call guessed from letter on letterObjects
@@ -29,8 +29,9 @@ this.displayWord = function(){
 
 
 }
-var testW = new Word("TImesheet");
-// console.log(testW.lArray);
-// console.log(testW.wordArray);
-// testW.wordArray();
-// console.log(testW.wArray);
+// var testW = new Word("TImesheet");
+// // console.log(testW.lArray);
+// // console.log(testW.wordArray);
+// // testW.wordArray();
+// // console.log(testW.wArray);
+// console.log(testW.displayWord());
