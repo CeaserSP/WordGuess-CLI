@@ -33,7 +33,8 @@ var Word = function (newWord) {
 this.checkGuess = function(userGuess){
 // loop through wArray
 for (var k = 0; k < this.wArray.length; k++){
-    
+    // set varbiable for wArray objects
+    var checkLetter = this.wArray[k];
 }
 };
 
