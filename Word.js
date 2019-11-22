@@ -30,15 +30,24 @@ var Word = function (newWord) {
         this.concatWord = concatString;
     };
     // A function that takes a character from user as an argument and calls the guess function on each letter object
-this.checkGuess = function(userGuess){
-// loop through wArray
-for (var k = 0; k < this.wArray.length; k++){
-    // set varbiable for wArray objects
-    var checkLetter = this.wArray[k];
-}
+    this.checkGuess = function (userGuess) {
+        // loop through wArray
+        for (var k = 0; k < this.wArray.length; k++) {
+            // set varbiable for wArray objects
+            var checkLetter = this.wArray[k];
+            // check if userGuess matches letter
+            if (userGuess = checkLetter.character) {
+                // run checkUp from Letter on userGuess
+                checkLetter.checkUp(userGuess);
+                // Update wArray
+                this.wArray[k] = checkLetter;
+            }
+        };
+        // Display word
+        this.displayWord();
+    };
 };
-
-};
+module.exports = Word;
 // var testW = new Word("TImesheet");
 // // console.log(testW.lArray);
 // // console.log(testW.wordArray);
