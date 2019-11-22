@@ -14,21 +14,21 @@ var Word = function (newWord) {
         };
     };
     var displayString = ''
-// Display wArray
-this.displayWord = function(){
-    for (var j = 0; j < this.wArray.length; j++){
-        // set varbiable for wArray objects
-        var letterObjects = this.wArray[j];
-        // call guessed from letter on letterObjects
-        var displayLetterObjects = letterObjects.guessed();
-        // push displayLetterObjects to a string variable
-        displayString.push(displayLetterObjects)
+    // Display wArray
+    this.displayWord = function () {
+        for (var j = 0; j < this.wArray.length; j++) {
+            // set varbiable for wArray objects
+            var letterObjects = this.wArray[j];
+            // call guessed from letter on letterObjects
+            var displayLetterObjects = letterObjects.guessed();
+            // push displayLetterObjects to a string variable
+            displayString.push(displayLetterObjects)
+        };
+        // concatenate letterObjects
+        var concatString = displayString.join(' ');
+        //    display word
+        this.concatWord = concatString;
     };
-    // concatenate letterObjects
-    var concatedWord = displayString.join(' ');
-//    display word
-
-};
 
 
 
