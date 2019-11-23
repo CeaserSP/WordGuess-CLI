@@ -9,5 +9,9 @@ function Game() {
         if (err) {
             throw err;
         }
+            // get random word
+    // split word.txt on line
+    splitWords = data.split('/n')
     };
+    
 };
