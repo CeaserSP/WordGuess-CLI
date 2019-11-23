@@ -17,4 +17,10 @@ function Game() {
     randomN = Math.floor(Math.random() * splitWords.lenght) +1;
     // get word on line
     randomL = splitWords[randomN]
+    // call word
+    var word = new Word(randomL);
+    // call word.js function wordArray
+    word.wordArray();
+// display wordString
+word.displayWord();
 };
