@@ -15,5 +15,6 @@ function Game() {
     };
     // get random line number
     randomN = Math.floor(Math.random() * splitWords.lenght) +1;
-
+    // get word on line
+    randomL = splitWords[randomN]
 };
