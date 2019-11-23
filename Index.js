@@ -13,5 +13,7 @@ function Game() {
     // split word.txt on line
     splitWords = data.split('/n')
     };
-    
+    // get random line number
+    randomN = Math.floor(Math.random() * splitWords.lenght) +1;
+
 };
