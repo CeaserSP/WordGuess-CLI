@@ -3,7 +3,7 @@ var inquirer = require("inquirer")
 var fs = require("fs");
 
 // TO DO: SET Randomly selects a word and uses the `Word` constructor to store it. * Prompts the user for each guess and keeps track of the user's remaining guesses
-function game() {
+function gameLogic) {
     // Read in words
     fs.readFile('./words.txt', function read(err, data) {
         if (err) {
@@ -25,6 +25,16 @@ function game() {
         // display initial string
         console.log(word.dsiplayString)
         // Run the game
-        game(word);
+        
     });
 };
+// Prompts the user for each guess and keeps track of the user's remaining guesses
+function gamePlqy(){
+    inquirer
+  .prompt([
+    {
+name: "character",
+message: "Guess a letter, please.",
+type: "input"
+    }])
+}
